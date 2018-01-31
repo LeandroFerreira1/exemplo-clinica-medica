@@ -1,0 +1,194 @@
+body, html{
+  height: 100%;
+  overflow: auto;
+
+}
+body{
+  background: url('../img/textura.jpg');
+  font-family: 'Roboto', sans-serif;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* ========================= layout ======================== */
+.icone-social img{
+  padding-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*barra superior*/
+
+.img-logo {
+	height: 90px;
+	width: 300px;
+	display: block;
+	background: url('../img/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/* -- Barra de navegação -- */
+
+
+nav.navbar-transparente {
+  padding: 10px 0px;
+	background: rgba(14,139,149,0.7);
+	border: none;
+  margin-bottom: 0;
+}
+.navbar .navbar-nav {
+display: inline-block;
+float: none;
+}
+
+.navbar .navbar-collapse {
+text-align: center;
+}
+
+.navbar-brand{
+	padding: 20px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #0088AA;
+}
+
+#top{
+  background: white;
+}
+
+#branco{
+  height: 50px;
+  background: white;
+
+}
+
+#trat{
+  background: white;
+  padding-bottom: 30px;
+
+}
+/*Capa*/
+.capa{
+  height: 400px;
+  width: 100%;
+  background: fixed;
+}
+/*Imagem da capa*/
+
+.icone-social{
+  background: rgba(0, 0, 0,0.3);
+}
+
+/*Especialidade*/
+.especialidade{
+  background: rgba(0, 0, 0,0.4);
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+}
+
+.trans-esp{
+    background: rgba(0, 0, 0,0.2);
+}
+.especialidade h1{
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+
+}
+
+.img-esp{
+  margin-right: 15px;
+}
+
+.icon-esp{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.especialidade-icons{
+  color:white;
+}
+
+/*Tratamento*/
+
+.trat-img{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.trat-img hr{
+  border-color: rgba(14,139,149,0.7);
+}
+
+.trat-img h3{
+  color: rgb(14,139,149);
+}
+.text-color p{
+  color: rgb(14,139,149);
+}
+
+/*contato*/
+.contato{
+  margin-bottom: 50px;
+}
+.email{
+  margin-top: 10px;
+}
+
+/*Institucional*/
+
+/*rodapé*/
+
+footer{
+  background: rgba(0, 0, 0,0.3);
+  padding: 20px 0px 20px 0px;
+  position: relative;
+}
+
+.texto-footer{
+  color: white;
+}
+
+.img-footer {
+  height: 70px;
+	width: 200px;
+	display: inline-block;
+	background: url('../img/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/*############################## localização #######################*/
+
+#mapa{
+  height: 400px;
+}
+
+/* ========================= Tipografia ======================== */
+.agenda-consulta{
+    margin-top: 10px;
+}
+
+.agenda-consulta p{
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    color: rgb(14,139,149);
+}
+
+
+@media screen and (max-width: 767px){
+    .capa{
+      height: 250px;
+    }
+  }
